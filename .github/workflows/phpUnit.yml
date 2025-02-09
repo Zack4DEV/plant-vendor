@@ -17,7 +17,7 @@ jobs:
           - 6379:6379
         options: --health-cmd="redis-cli ping" --health-interval=10s --health-timeout=5s --health-retries=3
       mysql:
-        image: mysql:'9.0.1'
+        image: mysql:9.0.1
         env:
           MYSQL_DATABASE: db
           MYSQL_USER: user
