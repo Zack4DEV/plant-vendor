@@ -2,7 +2,7 @@
 name: PHPUnit
 on:
   push:
-    branches: ['master']
+    branches: ['dev']
   pull_request:
   schedule:
     - cron: '0 0 * * *'
