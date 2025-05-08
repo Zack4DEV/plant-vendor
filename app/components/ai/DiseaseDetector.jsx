@@ -72,7 +72,7 @@ export const DiseaseDetector = () => {
                     key={index}
                     title={key}
                     description={value}
-                    left={props => <List.Icon {props} icon="alert-circle" />}
+                    left={props => <List.Icon {...props} icon="alert-circle" />}
                   />
                 ))
               ) : (
