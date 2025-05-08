@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Image, StyleSheet, ActivityIndicator } from 'react-native';
 import { Button, Text, Card } from 'react-native-paper';
 import * as ImagePicker from 'expo-image-picker';
-import { identifyPlant } from '../../utils/ai/plantAI';
+import { identifyPlant } from '../../utils/ai/plantAIIdentifier';
 
 export const PlantIdentifier = () => {
   const [image, setImage] = useState(null);
