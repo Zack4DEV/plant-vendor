@@ -13,10 +13,10 @@ export async function getPlantCareInstructions(plantName) {
     const response = await fetch("https://api.mendable.ai/v1/", {
       method: "POST",
       headers: {
-        "Authorization": Bearer MENDABLE_API_KEY,
+        "Authorization": `Bearer ${MENDABLE_API_KEY}`,
         "Content-Type": "application/json",
-      ,
-      body: JSON.stringify( query: How do I care for{plantName}? }),
+      },
+      body: JSON.stringify( "query: How do I care for{plantName}? "),
     });
 
     if (!response.ok) {
