@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import { Card, TextInput, Button, Text, List } from 'react-native-paper';
-import { getPlantCareInstructions } from '../../utils/ai/plantAICareInstructions';
+import { getPlantCareInstructions } from '../utils/ai/plantAICareInstructions';
 
 export const PlantCareAssistant = () => {
   const [plantName, setPlantName] = useState('');
