@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Image, StyleSheet, ScrollView } from 'react-native';
 import { Button, Card, Text, List, ActivityIndicator } from 'react-native-paper';
 import * as ImagePicker from 'expo-image-picker';
-import { getDiseaseDetection } from '../../utils/ai/plantAIDiseaseDetection';
+import { detectPlantDisease } from '../../utils/ai/plantAIDiseaseDetection';
 
 export const DiseaseDetector = () => {
   const [image, setImage] = useState(null);
@@ -32,7 +32,7 @@ export const DiseaseDetector = () => {
   const detectDisease = async (imageUri) => {
     setLoading(true);
     try {
-      const result = await getDiseaseDetection(imageUri);
+      const result = await detectPlantDisease(imageUri);
       setDiagnosis(result);
     } catch (error) {
       console.error('Error:', error);

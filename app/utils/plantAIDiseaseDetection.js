@@ -10,7 +10,7 @@ export async function detectPlantDisease(imageData) {
       throw new Error("Mendable API key is missing");
     }
 
-    const response = await fetch("https://api.mendable.ai/v1/plantDiseaseDetection", {
+    const response = await fetch("https://api.mendable.ai/v1/", {
       method: "POST",
       headers: {
         "Authorization": `Bearer ${MENDABLE_API_KEY}`,
