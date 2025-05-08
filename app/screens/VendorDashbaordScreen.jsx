@@ -10,7 +10,7 @@ const MOCK_USER = {
   avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200',
 };
 
-export default function ProfileScreen() {
+export default function VendorDashboardScreen() {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.header}>

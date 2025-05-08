@@ -14,7 +14,7 @@ const MOCK_RECENT_ORDERS = [
   { id: 3, customer: 'Bob Wilson', item: 'Fiddle Leaf', status: 'Delivered', price: '$65' },
 ];
 
-export default function VendorDashboardScreen() {
+export default function ProfileScreen() {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.statsContainer}>
