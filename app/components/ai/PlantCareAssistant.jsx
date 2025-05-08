@@ -57,7 +57,7 @@ export const PlantCareAssistant = () => {
                     key={index}
                     title={instruction.title}
                     description={instruction.description}
-                    left={props => <List.Icon {props} icon="leaf" />}
+                    left={props => <List.Icon {...props} icon="leaf" />}
                   />
                 ))
               ) : (
