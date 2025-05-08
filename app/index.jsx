@@ -1,7 +1,6 @@
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer , NavigationIndependentTree } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { Provider as PaperProvider } from 'react-native-paper';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import MarketplaceScreen from './screens/MarketplaceScreen';
@@ -15,7 +14,7 @@ const Tab = createBottomTabNavigator();
 export default function App() {
   return (
     <SafeAreaProvider>
-      <PaperProvider>
+      <NavigationIndependentTree>
         <NavigationContainer>
           <Tab.Navigator
             screenOptions={{
@@ -73,7 +72,7 @@ export default function App() {
             />
           </Tab.Navigator>
         </NavigationContainer>
-      </PaperProvider>
+      </NavigationIndependentTree>
     </SafeAreaProvider>
   );
 }

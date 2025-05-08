@@ -26,19 +26,19 @@ export default function ProfileScreen() {
           <List.Item
             title="Email"
             description={MOCK_USER.email}
-            left={props => <List.Icon {...props} icon="email" />}
+            left={props => <List.Icon {props} icon="email" />}
           />
           <Divider />
           <List.Item
             title="Account Type"
             description={MOCK_USER.type}
-            left={props => <List.Icon {...props} icon="account" />}
+            left={props => <List.Icon {props} icon="account" />}
           />
           <Divider />
           <List.Item
             title="Member Since"
             description={MOCK_USER.joinDate}
-            left={props => <List.Icon {...props} icon="calendar" />}
+            left={props => <List.Icon {props} icon="calendar" />}
           />
         </Card.Content>
       </Card>
@@ -48,23 +48,23 @@ export default function ProfileScreen() {
           <List.Subheader>Settings</List.Subheader>
           <List.Item
             title="Notifications"
-            left={props => <List.Icon {...props} icon="bell" />}
-            right={props => <List.Icon {...props} icon="chevron-right" />}
+            left={props => <List.Icon {props} icon="bell" />}
+            right={props => <List.Icon {props} icon="chevron-right" />}
           />
           <List.Item
             title="Payment Methods"
-            left={props => <List.Icon {...props} icon="credit-card" />}
-            right={props => <List.Icon {...props} icon="chevron-right" />}
+            left={props => <List.Icon {props} icon="credit-card" />}
+            right={props => <List.Icon {props} icon="chevron-right" />}
           />
           <List.Item
             title="Address Book"
-            left={props => <List.Icon {...props} icon="map-marker" />}
-            right={props => <List.Icon {...props} icon="chevron-right" />}
+            left={props => <List.Icon {props} icon="map-marker" />}
+            right={props => <List.Icon {props} icon="chevron-right" />}
           />
           <List.Item
             title="Help & Support"
-            left={props => <List.Icon {...props} icon="help-circle" />}
-            right={props => <List.Icon {...props} icon="chevron-right" />}
+            left={props => <List.Icon {props} icon="help-circle" />}
+            right={props => <List.Icon {props} icon="chevron-right" />}
           />
         </List.Section>
       </View>

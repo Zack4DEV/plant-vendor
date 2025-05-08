@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Image, StyleSheet, ScrollView } from 'react-native';
 import { Button, Card, Text, List, ActivityIndicator } from 'react-native-paper';
 import * as ImagePicker from 'expo-image-picker';
-import { getDiseaseDetection } from '../../utils/ai/plantAI';
+import { getDiseaseDetection } from '../../utils/ai/plantAIDiseaseDetection';
 
 export const DiseaseDetector = () => {
   const [image, setImage] = useState(null);
@@ -72,7 +72,7 @@ export const DiseaseDetector = () => {
                     key={index}
                     title={key}
                     description={value}
-                    left={props => <List.Icon {...props} icon="alert-circle" />}
+                    left={props => <List.Icon {props} icon="alert-circle" />}
                   />
                 ))
               ) : (
