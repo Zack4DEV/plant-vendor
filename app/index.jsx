@@ -7,7 +7,7 @@ import MarketplaceScreen from './screens/MarketplaceScreen';
 import VendorDashboardScreen from './screens/VendorDashboardScreen';
 //import NearbyScreen from './screens/NearbyScreen';
 import ProfileScreen from './screens/ProfileScreen';
-import { AIAssistantScreen } from './screens/AIAssistantScreen';
+import AIAssistantScreen from './screens/AIAssistantScreen';
 
 const Tab = createBottomTabNavigator();
 

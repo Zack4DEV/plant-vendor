@@ -1,3 +1,4 @@
+{/*
 import { Platform} from 'react-native';
 
 let MapViewComponent;
@@ -10,3 +11,4 @@ if (Platform.OS === 'web') {
 
 export default MapViewComponent;
 
+*/}

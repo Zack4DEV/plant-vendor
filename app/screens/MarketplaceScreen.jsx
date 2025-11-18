@@ -8,7 +8,7 @@ const MOCK_PLANTS = [
     name: 'Monstera Deliciosa',
     price: '$45',
     seller: 'Green Thumb Nursery',
-    image: 'https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=500',
+    image: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=500',
     category: 'Indoor',
   },
   {
@@ -16,7 +16,7 @@ const MOCK_PLANTS = [
     name: 'Snake Plant',
     price: '$25',
     seller: 'Urban Jungle',
-    image: 'https://images.unsplash.com/photo-1593691509543-c55fb32e7f76?w=500',
+    image: 'https://images.unsplash.com/photo-1487700160041-babef9c3cb55?w=500',
     category: 'Low Maintenance',
   },
   {
@@ -24,7 +24,7 @@ const MOCK_PLANTS = [
     name: 'Fiddle Leaf Fig',
     price: '$65',
     seller: 'Plant Paradise',
-    image: 'https://images.unsplash.com/photo-1597055181300-e3633a207517?w=500',
+    image: 'https://images.unsplash.com/photo-1607774786991-24c71fff4a03?w=8https://images.unsplash.com/photo-1607774786991-24c71fff4a0300',
     category: 'Popular',
   },
 ];

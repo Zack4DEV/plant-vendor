@@ -1,3 +1,4 @@
+{/* 
 import React from 'react';
 import { Dimensions} from 'react-native';
 import MapView, { Marker} from 'react-native-maps';
@@ -44,3 +45,5 @@ export default function MapViewNative() {
     </MapView>
 );
 }
+
+*/}

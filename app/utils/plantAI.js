@@ -1,8 +1,8 @@
-import * as dotenv from "dotenv";
+import Constants from 'expo-constants';
 
-dotenv.config();
-
-const MENDABLE_API_KEY = process.env.MENDABLE_API_KEY;
+const MENDABLE_API_KEY =
+  Constants.expoConfig?.extra?.MENDABLE_API_KEY ||
+  Constants.manifest?.extra?.MENDABLE_API_KEY;
 
 class PlantAI {
   async identifyPlant(imageData) {
