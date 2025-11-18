@@ -5,7 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import MarketplaceScreen from './screens/MarketplaceScreen';
 import VendorDashboardScreen from './screens/VendorDashboardScreen';
-import NearbyScreen from './screens/NearbyScreen';
+//import NearbyScreen from './screens/NearbyScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import { AIAssistantScreen } from './screens/AIAssistantScreen';
 
@@ -34,6 +34,7 @@ export default function App() {
                 ),
               }}
             />
+            {/* 
             <Tab.Screen
               name="Nearby"
               component={NearbyScreen}
@@ -43,7 +44,8 @@ export default function App() {
                 ),
               }}
             />
-            <Tab.Screen
+            */}
+          <Tab.Screen
               name="AI Assistant"
               component={AIAssistantScreen}
               options={{

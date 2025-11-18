@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { View, Image, StyleSheet, ScrollView } from 'react-native';
 import { Button, Card, Text, List, ActivityIndicator } from 'react-native-paper';
 import * as ImagePicker from 'expo-image-picker';
-import { detectPlantDisease } from '../../utils/ai/plantAIDiseaseDetection';
+import PlantAI from '../../utils/plantAI';
+
 
 export const DiseaseDetector = () => {
   const [image, setImage] = useState(null);
